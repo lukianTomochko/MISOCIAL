@@ -1,0 +1,65 @@
+@media screen and (max-width: 1300px) {
+    .menu {
+        width: 80%;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 880px) {
+    .burger-menu-link {
+        display: block;
+    }
+
+    .footer .menu,
+    .visible-menu {
+        display: none;
+    }
+
+    .take-control-btn {
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .header-footer {
+        justify-content: center;
+    }
+
+    .footer-text-box {
+        flex-direction: column;
+    }
+
+    .footer-text-box p {
+        text-align: center;
+    }
+
+    .link-box {
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .link-box a {
+        font-size: 2rem;
+    }
+
+
+}
+
+@media (max-width: 770px) {
+    .price-tag {
+        flex-basis: auto;
+        min-height: 300px;
+    }
+    .table {
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .main{
+        height: 93vh;
+    }
+}
